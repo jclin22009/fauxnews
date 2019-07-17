@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>    
+  <head>
   </head>
   <body>
     <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
@@ -10,7 +10,7 @@
     <script>
         function goPython(){
             $.ajax({
-              url: "MYSCRIPT.py",
+              url: "fauxnewsdev.py",
              context: document.body
             }).done(function() {
              alert('finished python script');;
